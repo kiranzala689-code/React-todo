@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 
-function Tod() {
+function Todo() {
   const [text,settext]=useState('')
   const [state,setstate]=useState([])
   const [edit,setedit]=useState(null)
@@ -121,5 +121,5 @@ function Tod() {
   )
 }
 
-export default Tod
+export default Todo
 
